@@ -27,19 +27,9 @@ function Lyout({ children }: LayoutProps) {
   return (
     <LayoutComponent>
       <Header>
-        <Link to="/">
-          <Logo />
-          <ButtonLogo>
-            <Button name="<--" onClick={goToHome} />
-          </ButtonLogo>
-        </Link>
-        <NavContainer>{navLinks}</NavContainer>
       </Header>
       <Main>{children}</Main>
       <Footer>
-        <Link to="/">
-          <Logo />
-        </Link>
       </Footer>
     </LayoutComponent>
   );
