@@ -8,15 +8,6 @@ import Layout from "./Components/Layout/Layout";
 // import Lesson12 from "./Lesson/Lesson12/Lesson12";
 // import Lesson10 from "./Lesson/Lesson10/Lesson10"
 import GlobalStyles from "./styles/GlobalStyles";
-import Home from "./pages/pages/Home/Home";
-import Users from "./pages/pages/Users/Users";
-import User from "./pages/pages/Users/components/User/User";
-import About from "./pages/pages/About/About";
-import Clients from "./pages/pages/Clients/Clients";
-import FaceBook from "./pages/pages/Clients/Components/Facebook/Facebook";
-import Gmail from "./pages/pages/Clients/Components/Gmail/Gmail";
-import Mercedes from "./pages/pages/Clients/Components/Mercedes/Mercedes";
-import { Logo } from "./Components/Layout/style";
 import { v4 } from "uuid";
 import { routesData } from "./routes/routes/routes";
 import type { RoutePage } from "./routes/routes/types";

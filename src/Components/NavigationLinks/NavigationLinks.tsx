@@ -8,6 +8,7 @@ function NavigationLink({ path, name }: NavigationLinkProps) {
       to={path}
       style={({ isActive }) => ({
         textDecoration: isActive ? "underline" : "none",
+        fontWeight: isActive ? "bold" : "normal",
       })}
     >
       {name}

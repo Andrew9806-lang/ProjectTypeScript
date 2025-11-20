@@ -16,10 +16,11 @@ function Button({
   primary,
 }: ButtonProps) {
   return (
-    <ButtonStyle primary
+    <ButtonStyle 
      disabled={disabled}
       type={type}
        onClick={onClick}
+       primary={primary}
       >
       {name}
     </ButtonStyle>

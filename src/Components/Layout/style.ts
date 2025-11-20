@@ -6,47 +6,50 @@ export const LayoutComponent = styled.div`
   flex: 1;
 `;
 export const Header = styled.header`
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
   padding: 20px;
-  background-color: #a7c7d7ff;
-  color: #0a2837ff;
+  background-color: white;
+  width: 1440px;
+height: 120px;
+opacity: 1;
+border-width: 2px;
+
 `;
 export const Logo = styled.div`
-  min-width: 80px;
-  min-height: 80px;
-  background-color: #0a2837ff;
-  border-radius: 50%;
-  cursor: pointer;
+  font-family: Lato;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000000;
 `;
+
 export const NavContainer = styled.nav`
   display: flex;
   gap: 16px;
 `;
-export const StyledNavLink= styled(NavLink)`
-/* zdes tak dobavlyaem ssilku zamenyaet a,pod kapotom a no soderzhit dop vozmozhnosti */
- text-decoration: none;
+export const StyledNavLink = styled(NavLink)`
+  /* zdes tak dobavlyaem ssilku zamenyaet a,pod kapotom a no soderzhit dop vozmozhnosti */
+  text-decoration: none;
   font-size: 20px;
   color: #0a2837ff;
-`
+`;
 export const Main = styled.main`
   display: flex;
   flex: 1;
 `;
-export const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 20px;
-  background-color: #b2d7a7ff;
-`;
 
-export const ButtonLogo= styled.div`
-display: flex;
-align-items: center;
-gap: 16px;
-max-width: 200px;
-`
+
+export const ButtonLogo = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 200px;
+`;
