@@ -8,9 +8,9 @@ export interface FormikTypesInput{
 }
 
 export interface MainCardContextType {
-  name:string
-    surname:string
-    age:number
-    jobPosition:string
+  name:string|undefined
+    surname:string|undefined
+    age:number|undefined
+    jobPosition:string|undefined
   onDataChange: Dispatch<SetStateAction<FormikTypesInput|undefined>>
 }

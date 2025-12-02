@@ -1,9 +1,12 @@
 import styled from "@emotion/styled";
 import { NavLink } from "react-router-dom";
+import image from "../../assets/react.svg"
 export const LayoutComponent = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
+  background-image: url(${image});
+  background-size: cover;
 `;
 export const Header = styled.header`
   width: 100%;
